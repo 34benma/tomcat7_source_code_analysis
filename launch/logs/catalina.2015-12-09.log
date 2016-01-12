@@ -1,0 +1,471 @@
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/@VERSION@
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          @VERSION_BUILT@
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         @VERSION_NUMBER@
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jre7
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+十二月 09, 2015 10:33:10 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 10:33:10 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 712 ms
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+十二月 09, 2015 10:33:10 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+十二月 09, 2015 10:33:11 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 10:33:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 893 ms
+十二月 09, 2015 10:33:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 460 ms
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 37 ms
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 22 ms
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 111 ms
+十二月 09, 2015 10:33:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 10:33:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 10:33:12 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1650 ms
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/@VERSION@
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          @VERSION_BUILT@
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         @VERSION_NUMBER@
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jre7
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+十二月 09, 2015 11:23:16 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 11:23:16 上午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:651)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:651)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+十二月 09, 2015 11:23:16 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 11:23:16 上午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:651)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:651)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 356 ms
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+十二月 09, 2015 11:23:16 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 362 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 277 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 20 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 25 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 134 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 843 ms
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.core.StandardServer await
+严重: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:777)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 11:23:17 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 11:23:17 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/@VERSION@
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          @VERSION_BUILT@
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         @VERSION_NUMBER@
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64467
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+十二月 09, 2015 7:31:04 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+十二月 09, 2015 7:31:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 7:31:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 7:31:05 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1309 ms
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/@VERSION@
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          @VERSION_BUILT@
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         @VERSION_NUMBER@
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56692
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+十二月 09, 2015 7:49:20 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 7:49:20 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 7:49:20 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1062 ms
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 646 ms
+十二月 09, 2015 9:11:16 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 312 ms
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 52 ms
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 23 ms
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 109 ms
+十二月 09, 2015 9:11:17 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十二月 09, 2015 9:11:17 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十二月 09, 2015 9:11:17 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1227 ms

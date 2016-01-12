@@ -1,0 +1,608 @@
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55874
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 1:43:34 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 1:43:34 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 1:43:34 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 425 ms
+一月 08, 2016 1:43:34 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 1:43:34 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 410 ms
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 285 ms
+一月 08, 2016 1:43:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 34 ms
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 24 ms
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 135 ms
+一月 08, 2016 1:43:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 1:43:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 1:43:35 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 935 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64085
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 2:23:14 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 2:23:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:23:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 375 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 2:23:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 412 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 286 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 24 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 26 ms
+一月 08, 2016 2:23:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 2:23:15 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:23:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 130 ms
+一月 08, 2016 2:23:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:23:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:23:15 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 911 ms
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64111
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 2:26:42 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 2:26:42 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:26:42 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 375 ms
+一月 08, 2016 2:26:42 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 2:26:42 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 419 ms
+一月 08, 2016 2:26:42 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 271 ms
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 26 ms
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 27 ms
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 136 ms
+一月 08, 2016 2:26:43 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:26:43 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:26:43 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 913 ms
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64317
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 2:31:04 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 2:31:04 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 2:31:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:31:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 383 ms
+一月 08, 2016 2:31:05 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 2:31:05 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 403 ms
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 259 ms
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 24 ms
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 26 ms
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 117 ms
+一月 08, 2016 2:31:05 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 2:31:05 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 2:31:05 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 862 ms
+一月 08, 2016 2:36:19 下午 org.apache.catalina.realm.LockOutRealm authenticate
+警告: An attempt was made to authenticate the locked user "wangcheng"
+一月 08, 2016 2:36:23 下午 org.apache.catalina.realm.LockOutRealm authenticate
+警告: An attempt was made to authenticate the locked user "wangcheng"
+一月 08, 2016 2:36:25 下午 org.apache.catalina.realm.LockOutRealm authenticate
+警告: An attempt was made to authenticate the locked user "wangcheng"
+一月 08, 2016 2:36:31 下午 org.apache.catalina.realm.LockOutRealm authenticate
+警告: An attempt was made to authenticate the locked user "wangcheng"
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 4:30:56 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 4:30:56 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:30:56 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 347 ms
+一月 08, 2016 4:30:56 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 4:30:56 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 377 ms
+一月 08, 2016 4:30:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 259 ms
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 30 ms
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 21 ms
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 112 ms
+一月 08, 2016 4:30:57 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:30:57 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:30:57 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 829 ms
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:49566
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 4:37:57 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 4:37:57 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:37:57 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 379 ms
+一月 08, 2016 4:37:57 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 4:37:57 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 4:37:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 414 ms
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 265 ms
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 25 ms
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 25 ms
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 120 ms
+一月 08, 2016 4:37:58 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:37:58 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:37:58 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 881 ms
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.25
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          7.0.25
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\tomcat7.0.65\launch
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:49571
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=launch
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=launch
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=launch/endorsed
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=launch/temp
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=launch/conf/logging.properties
+一月 08, 2016 4:41:59 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+一月 08, 2016 4:41:59 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\groovy-2.4.5\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\apache-maven-3.3.9\bin;.
+一月 08, 2016 4:45:00 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:45:00 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:45:17 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 211341 ms
+一月 08, 2016 4:45:42 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+一月 08, 2016 4:45:42 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.25
+一月 08, 2016 4:45:42 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\docs
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\docs has finished in 427 ms
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\examples
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\examples has finished in 315 ms
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\host-manager
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\host-manager has finished in 23 ms
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\manager
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\manager has finished in 26 ms
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\tomcat7.0.65\launch\webapps\ROOT
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\tomcat7.0.65\launch\webapps\ROOT has finished in 110 ms
+一月 08, 2016 4:45:43 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+一月 08, 2016 4:45:43 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 08, 2016 4:45:43 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 972 ms
