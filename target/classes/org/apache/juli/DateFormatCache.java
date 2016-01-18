@@ -27,7 +27,8 @@ import java.util.TimeZone;
 /**
  * <p>Cache structure for SimpleDateFormat formatted timestamps based on
  * seconds.</p>
- *
+ * 缓存SimpleDateFormat格式化之后的时间戳，精确到秒
+ * 
  * <p>Millisecond formatting using S is not supported. You should add the
  * millisecond information after getting back the second formatting.</p>
  *
@@ -40,9 +41,14 @@ import java.util.TimeZone;
  *
  * <p>The cache can be created with a parent cache to build a cache hierarchy.
  * Access to the parent cache is threadsafe.</p>
+ * 
+ * 
+ * 
+ * 
  */
 public class DateFormatCache {
 
+	//将毫秒的格式替换为#
     private static final String msecPattern = "#";
 
     /* Timestamp format */
@@ -51,6 +57,7 @@ public class DateFormatCache {
     /* Number of cached entries */
     private int cacheSize = 0;
 
+    //该格式的时间戳缓存
     private Cache cache;
 
     /**
@@ -60,6 +67,7 @@ public class DateFormatCache {
      * choose to replace the dummy chars with the actual
      * milliseconds because that's relatively cheap.
      */
+    //将带毫秒的时间格式转换为秒
     private String tidyFormat(String format) {
         boolean escape = false;
         StringBuilder result = new StringBuilder();
@@ -79,6 +87,7 @@ public class DateFormatCache {
         return result.toString();
     }
 
+    //指定缓存大小构造某种时间格式的缓存
     public DateFormatCache(int size, String format, DateFormatCache parent) {
         cacheSize = size;
         this.format = tidyFormat(format);
@@ -91,10 +100,12 @@ public class DateFormatCache {
         cache = new Cache(parentCache);
     }
 
+    //传入一个时间戳，得到格式化的时间，该方法非线程安全
     public String getFormat(long time) {
         return cache.getFormat(time);
     }
 
+    //这个缓存是一个循环队列
     private class Cache {
 
         /* Second formatted in most recent invocation */

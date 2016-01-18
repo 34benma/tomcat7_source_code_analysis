@@ -38,22 +38,31 @@ import java.util.logging.LogRecord;
  * 
  * <p>See the System Properties page in the configuration reference of Tomcat.</p>
  * 
+ * 异步日志文件处理类
+ * 
+ * 
  * @author Filip Hanik
  *
  */
 public class AsyncFileHandler extends FileHandler {
-
+	//丢弃最后(新产生的)的一个
     public static final int OVERFLOW_DROP_LAST = 1;
+    //丢弃最先(还未写入的最老)的一个
     public static final int OVERFLOW_DROP_FIRST = 2;
+    //丢弃已经进入刷新区但还未刷新的一个
     public static final int OVERFLOW_DROP_FLUSH = 3;
+    //丢弃当前这个
     public static final int OVERFLOW_DROP_CURRENT = 4;
     
+    //当缓冲区满时采取的策略
     public static final int OVERFLOW_DROP_TYPE = Integer.parseInt(System.getProperty("org.apache.juli.AsyncOverflowDropType","1"));
+    //缓冲区大小，默认10000
     public static final int DEFAULT_MAX_RECORDS = Integer.parseInt(System.getProperty("org.apache.juli.AsyncMaxRecordCount","10000"));
+    //写日志频率，默认1S写一次
     public static final int LOGGER_SLEEP_TIME = Integer.parseInt(System.getProperty("org.apache.juli.AsyncLoggerPollInterval","1000"));
    
     protected static LinkedBlockingDeque<LogEntry> queue = new LinkedBlockingDeque<LogEntry>(DEFAULT_MAX_RECORDS);
-    
+    //专门写日志的线程
     protected static LoggerThread logger = new LoggerThread();
     
     static {
@@ -91,6 +100,7 @@ public class AsyncFileHandler extends FileHandler {
         if (!isLoggable(record)) {
             return;
         }
+        //LogEntry就是日志记录和日志记录器的关联
         LogEntry entry = new LogEntry(record,this);
         boolean added = false;
         try {

@@ -76,6 +76,10 @@ import java.util.logging.SimpleFormatter;
  *    implementation class name for this Handler. Default value:
  *    <code>java.util.logging.SimpleFormatter</code></li>
  * </ul>
+ * 
+ * 将日志信息记录到文件
+ * 
+ * 
  */
 public class FileHandler
     extends Handler {
@@ -88,7 +92,7 @@ public class FileHandler
         this(null, null, null);
     }
     
-    
+    //指定目录指定前缀和后缀的日志文件
     public FileHandler(String directory, String prefix, String suffix) {
         this.directory = directory;
         this.prefix = prefix;
@@ -128,6 +132,7 @@ public class FileHandler
 
     /**
      * Determines whether the logfile is rotatable
+     * 
      */
     private boolean rotatable = true;
 
@@ -140,6 +145,7 @@ public class FileHandler
 
     /**
      * Lock used to control access to the writer.
+     * 日志记录为何效率低就是因为要加锁
      */
     protected ReadWriteLock writerLock = new ReentrantReadWriteLock();
 
@@ -157,6 +163,8 @@ public class FileHandler
      * Format and publish a <tt>LogRecord</tt>.
      *
      * @param  record  description of the log event
+     * 
+     * 将一条日志信息写入文件，加锁操作
      */
     @Override
     public void publish(LogRecord record) {
@@ -280,11 +288,13 @@ public class FileHandler
 
         String className = this.getClass().getName(); //allow classes to override
         
+        //这个类加载器就是Tomcat的commonClassLoader
         ClassLoader cl = Thread.currentThread().getContextClassLoader();
         
         // Retrieve configuration of logging file name
         rotatable = Boolean.parseBoolean(getProperty(className + ".rotatable", "true"));
         if (directory == null)
+        	//如果jre的日志配置文件被删了，则使用这个
             directory = getProperty(className + ".directory", "logs");
         if (prefix == null)
             prefix = getProperty(className + ".prefix", "juli.");
@@ -292,11 +302,13 @@ public class FileHandler
             suffix = getProperty(className + ".suffix", ".log");
         String sBufferSize = getProperty(className + ".bufferSize", String.valueOf(bufferSize));
         try {
+        	//配置一次写入的缓存区大小
             bufferSize = Integer.parseInt(sBufferSize);
         } catch (NumberFormatException ignore) {
             //no op
         }
         // Get encoding for the logging file
+        //日志文件编码，可以不指定
         String encoding = getProperty(className + ".encoding", null);
         if (encoding != null && encoding.length() > 0) {
             try {
@@ -307,6 +319,7 @@ public class FileHandler
         }
 
         // Get logging level for the handler
+        //默认打印全部级别日志
         setLevel(Level.parse(getProperty(className + ".level", "" + Level.ALL)));
 
         // Get filter configuration

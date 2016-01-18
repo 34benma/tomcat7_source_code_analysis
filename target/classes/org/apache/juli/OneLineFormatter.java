@@ -29,6 +29,9 @@ import java.util.logging.LogRecord;
  */
 /*
  * Date processing based on AccessLogValve.
+ * 
+ * 单行格式的日志格式
+ * 
  */
 public class OneLineFormatter extends Formatter {
 
@@ -50,12 +53,14 @@ public class OneLineFormatter extends Formatter {
 
     /**
      * Global date format cache.
+     * 全局时间格式缓存，父缓存
      */
     private static final DateFormatCache globalDateCache =
             new DateFormatCache(globalCacheSize, timeFormat, null);
 
     /**
      * Thread local date format cache.
+     * 为了线程安全，这样每个线程进来都有一个这样副本
      */
     private static final ThreadLocal<DateFormatCache> localDateCache =
             new ThreadLocal<DateFormatCache>() {
@@ -65,6 +70,7 @@ public class OneLineFormatter extends Formatter {
         }
     };
 
+    //格式化成单行
     @Override
     public String format(LogRecord record) {
         StringBuilder sb = new StringBuilder();

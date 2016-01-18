@@ -27,7 +27,7 @@ import java.util.logging.Logger;
  * Hardcoded java.util.logging commons-logging implementation.
  * 
  * In addition, it curr 
- * 
+ * 直接使用JDK的日志工具
  */
 class DirectJDKLog implements Log {
     // no reason to hide this - but good reasons to not hide

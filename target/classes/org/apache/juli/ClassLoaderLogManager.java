@@ -49,6 +49,9 @@ import java.util.logging.Logger;
  * For light debugging, set the system property
  * <code>org.apache.juli.ClassLoaderLogManager.debug=true</code>.
  * Short configuration information will be sent to <code>System.err</code>.
+ * 
+ * 继承自JDK的日志管理器类
+ * 
  */
 public class ClassLoaderLogManager extends LogManager {
     public static final String DEBUG_PROPERTY =
@@ -71,6 +74,7 @@ public class ClassLoaderLogManager extends LogManager {
     public ClassLoaderLogManager() {
         super();
         try { 
+        	//添加清理器钩子
             Runtime.getRuntime().addShutdownHook(new Cleaner());
         } catch (IllegalStateException ise) {
             // We are probably already being shutdown. Ignore this error.
@@ -85,6 +89,9 @@ public class ClassLoaderLogManager extends LogManager {
      * Map containing the classloader information, keyed per classloader. A
      * weak hashmap is used to ensure no classloader reference is leaked from 
      * application redeployment.
+     * 
+     * 保存类加载器和类加载器日志信息的Map
+     * 目前Tomcat7只会使用一个自定义类加载器，common,shared,server都会指向common
      */
     protected final Map<ClassLoader, ClassLoaderLogInfo> classLoaderLoggers = 
             new WeakHashMap<ClassLoader, ClassLoaderLogInfo>(); // Guarded by this
@@ -125,6 +132,8 @@ public class ClassLoaderLogManager extends LogManager {
     /**
      * Add the specified logger to the classloader local configuration.
      * 
+     * 给某个类加载器添加一个Logger
+     * 
      * @param logger The logger to be added
      */
     @Override
@@ -132,9 +141,11 @@ public class ClassLoaderLogManager extends LogManager {
 
         final String loggerName = logger.getName();
 
+        //对于Tomcat7，这里拿到的应该都是CommonClassLoader
         ClassLoader classLoader = 
             Thread.currentThread().getContextClassLoader();
         ClassLoaderLogInfo info = getClassLoaderInfo(classLoader);
+        //如果已经有这个日志记录器，则直接返回false，无需重新加载
         if (info.loggers.containsKey(loggerName)) {
             return false;
         }
@@ -158,6 +169,7 @@ public class ClassLoaderLogManager extends LogManager {
 
         // Always instantiate parent loggers so that 
         // we can control log categories even during runtime
+        //x.y.z 其父类日志记录器是x.y
         int dotIndex = loggerName.lastIndexOf('.');
         if (dotIndex >= 0) {
             final String parentName = loggerName.substring(0, dotIndex);
@@ -350,6 +362,7 @@ public class ClassLoaderLogManager extends LogManager {
     }
 
     // -------------------------------------------------------- Private Methods
+    //重置日志记录器，先将日志处理器和该记录器删除关联，然后关闭日志处理器，比如关闭打开的日志文件
     private void resetLoggers(ClassLoaderLogInfo clLogInfo) {
         // This differs from LogManager#resetLogger() in that we close not all
         // handlers of all loggers, but only those that are present in our
@@ -393,6 +406,7 @@ public class ClassLoaderLogManager extends LogManager {
         ClassLoaderLogInfo info = classLoaderLoggers.get(classLoader);
         if (info == null) {
             final ClassLoader classLoaderParam = classLoader;
+            //校验权限
             AccessController.doPrivileged(new PrivilegedAction<Void>() {
                 @Override
                 public Void run() {
@@ -415,6 +429,8 @@ public class ClassLoaderLogManager extends LogManager {
      * 
      * @param classLoader 
      * @throws IOException Error
+     * 
+     * 读取某个类加载器的配置文件
      */
     protected synchronized void readConfiguration(ClassLoader classLoader)
         throws IOException {
@@ -635,6 +651,7 @@ public class ClassLoaderLogManager extends LogManager {
     // ---------------------------------------------------- LogNode Inner Class
 
 
+    //单个日志记录器
     protected static final class LogNode {
         Logger logger;
 
@@ -657,6 +674,7 @@ public class ClassLoaderLogManager extends LogManager {
             if (logger.getName().equals(name)) {
                 return this;
             }
+            //如果找不到该日志记录器，就找其子类的，比如x.y.z,发现找不到,就找x.y
             while (name != null) {
                 final int dotIndex = name.indexOf('.');
                 final String nextName;
@@ -705,6 +723,10 @@ public class ClassLoaderLogManager extends LogManager {
     // -------------------------------------------- ClassLoaderInfo Inner Class
 
 
+    /*
+     * 保存一个日志记录关系，包括日志记录器和处理器
+     * 比如x.y.z 会保存 x.y.z   x.y   x 这三个日志记录器及其处理器
+     */
     protected static final class ClassLoaderLogInfo {
         final LogNode rootNode;
         final Map<String, Logger> loggers = new ConcurrentHashMap<String, Logger>();
@@ -724,6 +746,7 @@ public class ClassLoaderLogManager extends LogManager {
     /**
      * This class is needed to instantiate the root of each per classloader 
      * hierarchy.
+     * RootLogger就是Logger，只不过名字不一样而已
      */
     protected static class RootLogger extends Logger {
         public RootLogger() {

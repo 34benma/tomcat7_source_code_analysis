@@ -59,6 +59,9 @@ import java.util.logging.LogManager;
  * based on the SAXParserFactory and DocumentBuilderFactory implementations
  * (corresponding to the JAXP pluggability APIs) found in Apache Xerces.</p>
  * 
+ * 日志Logger工厂类，单例
+ * 用于生产Logger，生成的Logger也是单例，以类路径作为Logger名字(x.y.z.ClassName.class)
+ * 
  *
  * @author Craig R. McClanahan
  * @author Costin Manolache
@@ -125,6 +128,7 @@ public /* abstract */ class LogFactory {
     public static final String HASHTABLE_IMPLEMENTATION_PROPERTY =
         "org.apache.commons.logging.LogFactory.HashtableImpl";
     
+    //单例：直接加载，因为这个加载基本不要耗费资源
     private static LogFactory singleton=new LogFactory();
 
     Properties logConfig;

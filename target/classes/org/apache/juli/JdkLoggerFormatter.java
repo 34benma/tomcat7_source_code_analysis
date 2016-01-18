@@ -37,7 +37,11 @@ import java.util.logging.LogRecord;
  * Example:
  *  1130122891846 Http11BaseProtocol I Initializing Coyote HTTP/1.1 on http-8800
  *  
+ * 使用JDK的LoggerFormatter
  * 
+ * JDK格式的日志格式
+ * 
+ *  将某个日志记录（java.util.logging.LogRecord）转换成字符串
  * @author Costin Manolache
  */
 public class JdkLoggerFormatter extends Formatter {

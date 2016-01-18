@@ -26,6 +26,10 @@ import java.util.logging.LogRecord;
  * <code>System.getProperty("line.separator")</code>. This is intended for use
  * by access logs and the like that need complete control over the output
  * format.
+ * 
+ * 逐字节日志格式 
+ * 只记录单纯的message，不会记录异常信息
+ * 
  */
 public class VerbatimFormatter extends Formatter {
 
